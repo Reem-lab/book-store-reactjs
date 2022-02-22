@@ -8,14 +8,25 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "npx eslint .",
+    "lintf": "npx eslint --fix .",
+    "style": "npx stylelint \"**/*.{css,scss}\"",
+    "stylef": "npx stylelint --fix \"**/*.{css,scss}\"",
+    "format": "prettier --write \"src/**/*.{js, jsx}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
