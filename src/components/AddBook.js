@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/book';
+import { addNewBookApi } from '../redux/books/book';
 
-const CATEGORIES = ['romantic', 'hisorical', 'geographics', 'physics'];
+const CATEGORIES = ['Economy', 'Action', 'Science Fiction'];
 const AddBook = () => {
   const dispatch = useDispatch();
   const [category, setCategory] = useState('');
@@ -12,11 +12,11 @@ const AddBook = () => {
   const submitBookToStore = (e) => {
     e.preventDefault();
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title,
       category,
     };
-    dispatch(addBook(newBook));
+    dispatch(addNewBookApi(newBook));
   };
 
   return (
@@ -30,10 +30,11 @@ const AddBook = () => {
           className="inputTitle"
           placeholder=" Book title"
           onChange={(e) => setTitle(e.target.value)}
+          required
         />
 
         <select
-          id="category"
+          required
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
