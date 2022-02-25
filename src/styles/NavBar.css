@@ -4,7 +4,7 @@
   height: 2.313rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
   font-family: Montserrat;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -21,7 +21,7 @@
   width: 4rem;
   height: 3rem;
   color: #0290ff;
-  margin-right: 4rem;
+  margin-left: -6rem;
 }
 
 .nav-header {
@@ -45,6 +45,7 @@
   line-height: normal;
   letter-spacing: 1.9px;
   color: #121212;
+  text-decoration: none;
 }
 
 .CATEGORIES {
@@ -60,4 +61,5 @@
   line-height: normal;
   letter-spacing: 1.9px;
   color: #888;
+  text-decoration: none;
 }
