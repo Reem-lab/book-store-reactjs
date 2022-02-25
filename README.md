@@ -33,6 +33,8 @@ In the project directory, you can run:
 ## Additional tools
  - Google fonts
  - Webpack 
+ - React Icons
+ - React Circular Progressbar
 
 <!-- 
  ## Live Demo
