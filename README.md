@@ -36,6 +36,8 @@ In the project directory, you can run:
  - Webpack 
  - React Icons
  - React Circular Progressbar
+ - linters
+ - Gitflow
 
 <!-- 
  ## Live Demo
