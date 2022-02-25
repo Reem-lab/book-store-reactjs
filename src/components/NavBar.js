@@ -1,4 +1,6 @@
 import { NavLink } from 'react-router-dom';
+import { CgProfile } from 'react-icons/cg';
+import '../styles/NavBar.css';
 
 const NavBar = () => {
   const Links = [
@@ -14,18 +16,19 @@ const NavBar = () => {
     },
   ];
   return (
-    <nav className="panel-pg">
-      <h1>Bookstore CMS</h1>
-      <ul className="ul-links">
-        {Links.map((link) => (
-          <li key={link.id} className="li-links">
-            <NavLink to={link.path} className="links" activeClassName="active-link" exact>
-              {link.text}
-            </NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className="nav-header ">
+      <span className="Bookstore-CMS">Bookstore CMS</span>
+      {Links.map((link) => (
+        <li key={link.id} className="li-links">
+          <NavLink to={link.path} className={link.text === 'Categories' ? 'CATEGORIES' : 'BOOKS'} activeClassName="active-link" exact>
+            {link.text}
+          </NavLink>
+        </li>
+      ))}
+      <div>
+        <CgProfile className="profile-pic" />
+      </div>
+    </div>
   );
 };
 
