@@ -6,7 +6,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <Switch>
         <Route exact path="/">
@@ -16,7 +16,7 @@ function App() {
           <Categories />
         </Route>
       </Switch>
-    </>
+    </div>
   );
 }
 
