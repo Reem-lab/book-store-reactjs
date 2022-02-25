@@ -11,9 +11,6 @@
 ## Video Demo 📽
 
 
-https://user-images.githubusercontent.com/58553711/155641912-432ccdb4-f68d-4adb-942f-c082e8da2587.mp4
-
-
 
 <!-- ## Deploy Demo 🚀 -->
 
