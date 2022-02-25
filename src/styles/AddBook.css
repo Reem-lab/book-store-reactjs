@@ -1,0 +1,43 @@
+
+.wrapForm {
+  margin: 2rem 7rem;
+}
+
+.addBookSpan {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.inputs-selector {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  width: 80rem;
+  height: 20rem;
+  margin-top: 2.5rem;
+}
+
+.Rectangle-2 {
+  width: 11.5rem;
+  height: 2.813rem;
+  border-radius: 1.51rem;
+  background-color: #0290ff;
+}
+
+.inputTitle {
+  width: 30rem;
+  height: 2rem;
+}
+
+.select-options {
+  width: 12rem;
+  height: 2rem;
+}
