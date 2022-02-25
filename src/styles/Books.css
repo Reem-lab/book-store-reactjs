@@ -2,15 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;600;800;900&display=swap');
 
 .Edit {
-  width: 1.688rem;
   height: 1.188rem;
-  margin: 0.188rem 18.625rem 0.125rem 1.063rem;
+  /* margin-top: 1rem; */
   font-size: 0.875rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #4386bf;
 }
 
@@ -33,8 +28,7 @@
 }
 
 .Remove {
-  width: 4rem;
-  height: 1.188rem;
+  width: 2rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
   font-size: 0.875rem;
   font-weight: 300;
@@ -43,13 +37,13 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
+  background-color: #fff;
   border: none;
   cursor: pointer;
 }
 
 .Comments {
-  width: 4.563rem;
-  height: 1.188rem;
+  width: 3rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
   font-size: 0.875rem;
   font-weight: 300;
@@ -67,19 +61,20 @@
 
 .panel {
   display: flex;
-  width: 60rem;
-  height: 6rem;
+  width: 75rem;
+  height: 12rem;
   margin: 2.313rem 6.25rem 0;
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   border-radius: 4px;
   border: solid 1px var(--white);
   background-color: #fff;
+  align-items: center;
 }
 
 .comment-div {
   display: flex;
   margin-top: 8px;
-  align-items: center;
+  align-items: baseline;
 }
 
 .Rectangle-2 {
@@ -163,8 +158,8 @@
 }
 
 .School-of {
-  width: 3.063rem;
-  height: 1.125rem;
+  width: 8rem;
+  height: 1rem;
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
   font-size: 0.875rem;
@@ -172,7 +167,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   letter-spacing: normal;
   color: #121212;
 }
@@ -219,7 +214,7 @@
 .book-title {
   width: 12.313rem;
   height: 1.813rem;
-  margin: 0.188rem 20.188rem 0 0;
+  margin: 0 20.188rem 0.5rem 0;
   font-family: RobotoSlab;
   font-size: 1.375rem;
   font-weight: bold;
@@ -234,6 +229,6 @@
   width: 0.125rem;
   height: 1.5rem;
   margin: 0.75rem 1.063rem 0 0.938rem;
-  border: solid 1px #307bbe;
-  background-color: #307bbe;
+  background-color: #e8e8e8;
+  align-self: auto;
 }
