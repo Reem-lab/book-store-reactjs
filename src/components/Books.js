@@ -31,6 +31,7 @@ const Books = () => {
                   <span className="School-of">{book.category}</span>
                   <span className="book-title">{book.title}</span>
                 </div>
+
                 <div className="comment-div">
                   <span className="Comments">
                     Comments
@@ -61,14 +62,14 @@ const Books = () => {
 
               <div className="info-book">
                 <span className="Current-Chapter">
-                  Current Chapter
+                  CURRENT CHAPTER
                 </span>
                 <span className="Current-Lesson">
                   Chapter 17
                 </span>
                 <div className="Rectangle-2">
                   <span className="Update-progress">
-                    Update progress
+                    UPDATE PROGRESS
                   </span>
                 </div>
               </div>
