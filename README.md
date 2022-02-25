@@ -10,7 +10,9 @@
 
 <!-- ## Video Demo 📽 -->
 
-<!-- ## Deploy Demo 🚀 -->
+## Deploy Demo 🚀
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f61cb7c-40f9-4d4d-aa7d-973269817785/deploy-status)](https://keen-liskov-f88a09.netlify.app/)
 
 
 # Getting Started with Create React App
