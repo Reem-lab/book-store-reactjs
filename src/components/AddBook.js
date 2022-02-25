@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
 import { addNewBookApi } from '../redux/books/book';
+import '../styles/AddBook.css';
 
 const CATEGORIES = ['Economy', 'Action', 'Science Fiction'];
 const AddBook = () => {
@@ -24,8 +25,8 @@ const AddBook = () => {
       className="wrapForm"
       onSubmit={submitBookToStore}
     >
-      <h2 className="title">ADD NEW BOOK</h2>
-      <div className="Lesson-Panel ">
+      <span className="addBookSpan">ADD NEW BOOK</span>
+      <div className="inputs-selector">
         <input
           className="inputTitle"
           placeholder=" Book title"
@@ -35,6 +36,7 @@ const AddBook = () => {
 
         <select
           required
+          className="select-options"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
@@ -44,8 +46,8 @@ const AddBook = () => {
             </option>
           ))}
         </select>
+        <button className="Rectangle-2" type="submit">ADD BOOK</button>
       </div>
-      <button type="submit">ADD BOOK</button>
     </form>
   );
 };
