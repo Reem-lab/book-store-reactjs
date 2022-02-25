@@ -1,6 +1,6 @@
 
 .wrapForm {
-  margin: 2rem 7rem;
+  margin: 7rem 7rem;
 }
 
 .addBookSpan {
@@ -30,6 +30,7 @@
   height: 2.813rem;
   border-radius: 1.51rem;
   background-color: #0290ff;
+  color: #fff;
 }
 
 .inputTitle {
