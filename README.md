@@ -5,7 +5,7 @@
 
 # Book Store React 📚
 
-> This is a simple react project that Stores the books, When the user enter any book with the category will be updated in the API and you can get someof books from API based on the category.
+> This is a simple react project that stores the books. When the user enters any book with the category will be updated in the API and you can get some of the  books from API based on the category.
 
 
 <!-- ## Video Demo 📽 -->
